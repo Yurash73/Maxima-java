@@ -1,6 +1,6 @@
 public class SysAdmin extends Worker {
-    int beginWork = 8;
-    int endWork = 21;
+    private int beginWork = 8;
+    private int endWork = 21;
 
     public SysAdmin(String name, String lastname, String profession) {
         super(name, lastname, profession);

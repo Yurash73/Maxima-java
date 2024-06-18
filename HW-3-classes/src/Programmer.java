@@ -1,6 +1,6 @@
 public class Programmer extends Worker {
-    int beginWork = 10;
-    int endWork = 19;
+    private int beginWork = 10;
+    private int endWork = 19;
 
     public Programmer(String name, String lastname, String profession) {
         super(name, lastname, profession);

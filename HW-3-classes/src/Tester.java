@@ -1,6 +1,6 @@
 public class Tester extends Worker {
-    int beginWork = 8;
-    int endWork = 17;
+    private int beginWork = 8;
+    private int endWork = 17;
 
     public Tester(String name, String lastname, String profession) {
         super(name, lastname, profession);

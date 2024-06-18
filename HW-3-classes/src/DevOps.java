@@ -1,6 +1,6 @@
 public class DevOps extends Worker {
-    int beginWork = 12;
-    int endWork = 20;
+    private int beginWork = 12;
+    private int endWork = 20;
 
     public DevOps(String name, String lastname, String profession) {
         super(name, lastname, profession);
